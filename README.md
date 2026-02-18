@@ -22,9 +22,9 @@ This is a really simple, but very useful project and I hope its helpful to you.
 I would really appreciate it!
 
 ## Getting Started
-Clone the repository and open `index.html` in your browser(you can only use tinyurl)
+Clone the repository and upload everything to netlify
 
 ```bash
 git clone https://github.com/WhisingWasTaken/win98urlshortner.git
 cd win98urlshortner
-open index.html
+upload to netlify
