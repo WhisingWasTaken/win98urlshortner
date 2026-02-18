@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Whising's Win98 URL Shortener</title>
+  <link rel="stylesheet" href="https://unpkg.com/98.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="window" id="mainWindow">
+    <div class="title-bar">
+      <div class="title-bar-text">URL Shortener</div>
+      <div class="title-bar-controls">
+        <button aria-label="Minimize" onclick="toggleWindow()"></button>
+        <button aria-label="Maximize"></button>
+        <button aria-label="Close" onclick="shutdown()"></button>
+      </div>
+    </div>
+    <div class="window-body">
+      <p>Enter your long URL:</p>
+      <input type="text" id="longUrl" style="width: 100%;" placeholder="https://example.com/very/long/link">
+
+      <p>Select service:</p>
+      <select id="serviceSelect" style="width:100%;">
+        <option value="tinyurl">TinyURL(recommended)</option>
+        <option value="vgd">v.gd(best alternative to tinyurl)</option>
+        <option value="isgd">is.gd(doesn't work good, only use if the above two dont work)</option>
+      </select>
+
+      <button class="button" onclick="shortenUrl()">Shorten</button>
+
+      <p>Shortened URL:</p>
+      <div style="display:flex; gap:5px;">
+        <input type="text" id="shortUrl" readonly style="flex:1;">
+        <button class="button" onclick="copyUrl()">Copy</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="taskbar">
+    <div class="taskbar-left">
+      <button class="button" onclick="toggleStartMenu()">Start</button>
+      <button class="button" onclick="toggleWindow()">URL Shortener</button>
+    </div>
+    <div class="clock" onclick="toggleCalendar()" id="clock"></div>
+  </div>
+
+  <div class="start-menu" id="startMenu">
+    <button class="button" onclick="shutdown()">Shutdown</button>
+  </div>
+
+  <div class="calendar" id="calendar"></div>
+
+  <audio id="bootSound" autoplay>
+    <source src="https://archive.org/download/windows98startup/Windows%2098%20Startup.mp3" type="audio/mpeg">
+  </audio>
+
+<script src="script.js"></script>
+</body>
+</html>

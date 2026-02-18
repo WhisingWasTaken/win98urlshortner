@@ -1,0 +1,115 @@
+body {
+  background: teal;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0; 
+  font-family: "MS Sans Serif", Tahoma, sans-serif;
+}
+
+.window {
+  width: 400px;
+  margin-bottom: 40px;
+}
+
+#shortUrl {
+  background: white;
+  color: black;
+  font-weight: bold;
+}
+
+.taskbar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  background: #c0c0c0;
+  border-top: 2px solid #808080;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.taskbar-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.clock{
+  cursor: pointer;
+  font-size: 14px;
+  background: #e0e0e0;
+  padding: 5px 10px;
+  border: 2px inset #fff;
+  font-family: "MS Sans Serif", Tahoma, sans-serif;
+}
+
+.start-menu {
+  position: fixed;
+  bottom: 40px;
+  left: 0;
+  width: 200px;
+  background: #c0c0c0;
+  border: 2px solid #808080;
+  display: none;
+  flex-direction: column;
+}
+
+.calendar { 
+  position: fixed;
+  bottom: 40px;
+  right: 10px;
+  width: 240px;
+  background: #c0c0c0;
+  border: 2px solid #808080;
+  display: none;
+  padding: 10px;
+}
+
+.calendar h4 {
+  margin: 0 0 10px 0;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: "MS Sans Serif", Tahoma, sans-serif;
+}
+
+.calendar .big-clock {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "MS Sans Serif", Tahoma, sans-serif;
+}
+
+.calendar table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 12px;
+}
+
+.calendar th {
+  background: #dcdcdc;
+  padding: 5px;
+}
+
+.calendar td {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.calendar td:hover {
+  background: #000080;
+  color: white;
+}
+
+.calendar .today {
+  background: #000080;
+  color: white;
+  font-weight: bold;
+}
