@@ -2,7 +2,6 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Hack Club](https://img.shields.io/badge/Hack_Club-%23EC3750.svg?style=flat&logo=Hack-Club&logoColor=white)](https://hackclub.com/)
-![Portfolio](https://img.shields.io/badge/Personal-Portfolio-blue)
 ![Netlify](https://img.shields.io/badge/deployed%20on-Netlify-00C7B7)
 ![98.css](https://img.shields.io/badge/98.css-Windows%2098-008080?style=flat-square&logo=windows95&logoColor=white&labelColor=c0c0c0&color=008080)
 
