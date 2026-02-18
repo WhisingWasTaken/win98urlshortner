@@ -14,7 +14,7 @@ This is a really simple, but very useful project and I hope its helpful to you.
 
 ## Features
 - Windows 98 inspired UI
-- Start menu with shutdown,
+- Start menu with shutdown
 - Taskbar with clock
 - Multiple API options
 
