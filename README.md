@@ -10,7 +10,7 @@ It recreates the classic desktop look with a taskbar and a start menu.
 This is a really simple, but very useful project and I hope its helpful to you.
 
 ![Preview](https://img.shields.io/badge/preview-live-success)
-**Live Demo:** [whising.space](whising.space)
+**Live Demo:** [tinyurl.com/2bc9c4wj](https://tinyurl.com/2bc9c4wj)
 
 ## Features
 - Windows 98 inspired UI
